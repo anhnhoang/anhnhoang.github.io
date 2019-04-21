@@ -23,7 +23,7 @@ description: Working on description
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "aboutme"
+  About Me: "resume/index.html"
   Project :
     - Resume: "http://deanattali.com/beautiful-jekyll/"
     - Kaggle House Price: "https://github.com/anhnhoang/Kaggle-House-Price"
