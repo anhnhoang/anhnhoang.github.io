@@ -24,8 +24,14 @@ description: Working on description
 # List of links in the navigation bar
 navbar-links:
   Resume: "resume/index.html"
-  Project :
-      - Kaggle House Price: "https://github.com/anhnhoang/Kaggle-House-Price"
+  Project:
+    - Kaggle House Price: "https://github.com/anhnhoang/Kaggle-House-Price"
+    - Get US Weather Data: "https://github.com/anhnhoang/get_us_weather-master"
+    - Animal Detection with MaskRCNN: "https://github.com/anhnhoang/Mask_RCNN"
+    - Check Attendance Android App: "https://github.com/anhnhoang/ESL"
+    - Vandy HackAthon: "https://github.com/anhnhoang/VandyHack"
+    - Uber Clone : "https://github.com/anhnhoang/TroyEasyRiderIOS"
+
 #  Author's home: "http://anhnhoang.github.com"
 
 # Image to show in the navigation bar - image must be a square (width = height)
