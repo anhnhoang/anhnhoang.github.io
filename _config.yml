@@ -23,7 +23,7 @@ description: Working on description
 
 # List of links in the navigation bar
 navbar-links:
-  Resume: "resume/index.html"
+  Resume : "resume/index.html"
   Project :
       - Kaggle House Price: "https://github.com/anhnhoang/Kaggle-House-Price"
 #  Author's home: "http://anhnhoang.github.com"
