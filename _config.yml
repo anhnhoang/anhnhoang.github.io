@@ -17,15 +17,22 @@ baseurl: ""
 title: Hoang Portfolio
 
 # Short description of your site
-description: Working on description 
+description: Working on description
 
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
 navbar-links:
   Resume: "resume/index.html"
-  Project :
-      - Kaggle House Price: "https://github.com/anhnhoang/Kaggle-House-Price"
+  Project:
+    - Kaggle House Price: "https://github.com/anhnhoang/Kaggle-House-Price"
+    - Get US Weather Data: "https://github.com/anhnhoang/get_us_weather-master"
+    - Animal Detection with MaskRCNN: "https://github.com/anhnhoang/Mask_RCNN"
+    - Check Attendance Android App: "https://github.com/anhnhoang/ESL"
+    - Vandy HackAthon: "https://github.com/anhnhoang/VandyHack"
+    - Uber Clone : "https://github.com/anhnhoang/TroyEasyRiderIOS"
+
+
 #  Author's home: "http://anhnhoang.github.com"
 
 # Image to show in the navigation bar - image must be a square (width = height)
@@ -131,14 +138,14 @@ url-pretty: "anhnhoang.github.io"  # eg. "deanattali.com/beautiful-jekyll"
 
 # Staticman support
 staticman:
-  repository : # GitHub username/repository eg. "daattali/beautiful-jekyll"
-  branch     : # eg. "master" If you're not using `master` branch, then you also need to update the `branch` parameter in `staticman.yml`
-  endpoint   : # URL of your own deployment (with trailing slash) (will fallback to a public GitLab instance)
+  repository: # GitHub username/repository eg. "daattali/beautiful-jekyll"
+  branch: # eg. "master" If you're not using `master` branch, then you also need to update the `branch` parameter in `staticman.yml`
+  endpoint: # URL of your own deployment (with trailing slash) (will fallback to a public GitLab instance)
   reCaptcha:
     # reCaptcha for Staticman (OPTIONAL)
     # If you use reCaptcha, you must also set these parameters in staticman.yml
-    siteKey  : # Use your own site key, you need to apply for one on Google
-    secret   : # ENCRYPT your password by going to https://staticman3.herokuapp.com/v3/encrypt/<your-site-secret>
+    siteKey: # Use your own site key, you need to apply for one on Google
+    secret: # ENCRYPT your password by going to https://staticman3.herokuapp.com/v3/encrypt/<your-site-secret>
 
 # --- Misc --- #
 
@@ -167,16 +174,14 @@ kramdown:
 
 # Default YAML values (more information on Jekyll's site)
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
       comments: true  # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
-  -
-    scope:
+  - scope:
       path: "" # all files
     values:
       layout: "page"
